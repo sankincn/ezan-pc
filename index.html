@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="description" content="小鹅通知识付费系统，助力自媒体实现知识变现、粉丝变现，为自媒体知识创业者、企业培训直播、提供更稳定超清的SaaS在线教育直播系统，支持图文、音频、视频录播、超级会员、社群运营工具、训练营等众多功能痛点，多终端无延迟观看让学员学习更方便，老师授课更轻松">
+    <meta name="keywords" content="小鹅通授权服务商，小鹅通，小鹅通购买，小鹅通多少钱，小鹅通价格，企业培训直播系统,微信直播系统,微信小程序直播组件,商城直播带货系统,直播会议系统,知识付费系统搭建">
+    <link rel='icon' href='favicon.ico' type='image/x-ico' />
+    <title>小鹅通授权服务商-小鹅通购买-网校直播平台开发-知识付费系统搭建-鹅赞科技</title>
+    <link rel="canonical" href="/">
+    <link type=text/css rel="stylesheet" href="/ezan/SEM/at.alicdn.com/t/font_1543276_v5k7ti2wjjk.css">
+    <link type=text/css rel="stylesheet" href="/ezan/SEM/dist/css/pcCss/baseLayOut-bde174916b.css">
+    <link type=text/css rel="stylesheet" href="/ezan/SEM/dist/css/lib/swiper-3-a18c58cf55.4.2.min.css">
+    <link type=text/css rel="stylesheet" href="/ezan/SEM/dist/css/pcCss/homepage-7764e55c83.css">
+    <link type=text/css rel="stylesheet" href="/ezan/SEM/dist/css/pcCss/homepageNew-079c11504d.css">
+    <script type="text/javascript" src="/ezan/SEM/dist/js/lib/swiper-3-9add2e243b.4.2.min.js"></script>
+</head>
+
+<body>
+    <!--[if let IE 9.0]>
+        <div class="ie-warn">您所用的是较低版本的ie浏览器，为了更好的浏览效果请更换或升级更高版本的浏览器</div>
+    <![endif]-->
+    <!-- 顶部小横条 -->
+    <div id="nav" class="nav navCommon transparentNav whiteNav">
+        <div class="nav-content">
+            <!-- 企业培训企业微信独立页面特殊处理 -->
+            <a href='/' class="nav-logo_wrap" data-scid="PA01"></a>
+
+            <div class="nav-func" style="display: block">
+                <a id="navRoot" href="/" class="nav-func_item
+                        nav-item_select" data-scid="PA01">首页</a>
+                <a id="payKnowledge" href="shop.html" class="nav-func_item" data-scid="PA02">知识店铺</a>
+                <a id="xiaoeLive" href="xiaoeLive.html" class="nav-func_item" data-scid="PA03">小鹅通直播</a>
+                <a id="clientCases" href="clientCases.html" class="nav-func_item" data-scid="PA05">客户案例</a>
+                <a id="serverPrice" href="price.html" class="nav-func_item" data-scid="PA04">价格</a>
+                <a id="companyProfile" href="companyProfile.html" class="nav-func_item" data-scid="PA08">公司简介</a>
+            </div>
+            <div class="btns">
+                <a href="https://admin.xiaoe-tech.com/login_page?channel=5670-116942#/register" target="_blank" class="navRegistered btn-effect" rel="nofollow" data-scid="VA01">免费试用</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 价格页公共头部tab -->
+    <div class="main-swipper-box">
+        <div class="swiper-banner swiper-container
+                swiper-container-horizontal">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="header" data-no-retina usemap="#bannermap0" src="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/apprnDA0ZDw4581/image/fd50d12862173280d4715c6ba8fac0bb.png" />
+                    <map name="bannermap0">
+                        <area shape="rect" coords="0,404,166,448"
+                            href="https://admin.xiaoe-tech.com/login_page?channel=5670-116942#/register" target="_blank"
+                            alt="立即创建体验" data-scid="SA13" />
+                        <area shape="rect" class="video-btn" coords="180,404,352,448"
+                            data-video="http://1252524126.vod2.myqcloud.com/e33d04fdvodgzp1252524126/8aae07a95285890812264990042/1OiMt0aQCCsA.mp4"
+                            alt="观看介绍视频" />
+                    </map>
+                </div>
+                <div class="swiper-slide">
+                    <img class="header" src="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/apprnDA0ZDw4581/image/9777f2df29337275fea7908c8eaa0b29.png" style="cursor: pointer;" onclick="window.open('https://admin.xiaoe-tech.com/login_page?channel=5670-116942#/register',
+                            '_blank')" data-no-retina data-scid="SA13" />
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="channelAdvantage btnNext">
+                <div class="iconfont iconarrow-right"></div>
+            </div>
+            <div class="channelAdvantage btnPrev">
+                <div class="iconfont iconjiantou-copy"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 数据统计 -->
+    <div class="module-box">
+        <div class="module-box-0 w1200">
+            <div class="information-box">
+                <div class="information-list">
+                    <div class="information-left">
+                        <img src="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvac6yok076w.png" class="information-icon">
+                    </div>
+                    <div class="information-right">
+                        <div class="information-number-box">
+                            <span class="information-number-left">160</span><span class="information-number-right">万</span>
+                        </div>
+                        <span class="information-number-details">注册客户数</span>
+                    </div>
+                </div>
+                <div class="information-list">
+                    <div class="information-left">
+                        <img src="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvac6yom0ehf.png" class="information-icon">
+                    </div>
+                    <div class="information-right">
+                        <div class="information-number-box">
+                            <span class="information-number-left
+                                    information-block">1000</span><span class="information-number-right
+                                    information-block">万人</span>
+                        </div>
+                        <span class="information-number-details">最高同时在线</span>
+                    </div>
+                </div>
+                <div class="information-list">
+                    <div class="information-left">
+                        <img src="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvac6yon0sn1.png" class="information-icon">
+                    </div>
+                    <div class="information-right">
+                        <div class="information-number-box">
+                            <span class="information-number-left">2000</span><span class="information-number-right">万</span>
+                        </div>
+                        <span class="information-number-details">知识产品数</span>
+                    </div>
+                </div>
+                <div class="information-list">
+                    <div class="information-left">
+                        <img src="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvac6yon029c.png" class="information-icon">
+                    </div>
+                    <div class="information-right">
+                        <div class="information-number-box">
+                            <span class="information-number-left">7.8</span><span class="information-number-right">亿</span>
+                        </div>
+                        <span class="information-number-details">终端用户数</span>
+                    </div>
+                </div>
+            </div>
+            <div class="information-bottom">
+                <span>*数据统计时间截止2021年6月</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="module-box">
+        <div class="module-box-1 w1200">
+            <div class="center-box">
+                <p class="title1">五大核心产品能力</p>
+                <div class="center-list">
+                    <p class="center-title">直播应用</p>
+                    <div class="center-content">
+                        <div class="content-left">
+                            <img src="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgbh0x80kum.jpg" class="content-left-img0 content-left-img">
+                        </div>
+                        <div class="content-right">
+                            <div class="content-right-list
+                                    content-list-active" data-img="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgbh0x80kum.jpg" data-key="0">
+                                <div class="list-tag">引流获客</div>
+                                <span class="list-title">微信一键打开，轻松在各个渠道直播引流</span>
+                                <span class="list-content">支持多平台转播，连接公域流量并引流到直播间，把用户都沉淀到自己的小鹅通知识店铺内。</span>
+                            </div>
+                            <div class="content-right-list" data-img="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgbh0x7049f.jpg" data-key="0" data-show="1">
+                                <div class="list-tag">互动体验</div>
+                                <span class="list-title">一键美颜+虚拟背景，零延迟打造极佳互动体验</span>
+                                <span class="list-content">零延迟免流量，支持虚拟背景、美颜、圆桌会议，连麦等功能，大幅提升直播间互动体感，打造你的最佳直播间。</span>
+                            </div>
+                            <div class="content-right-list" data-img="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgbh0x50e1g.jpg" data-key="0" data-show="2">
+                                <div class="list-tag">带货玩法</div>
+                                <span class="list-title">花样红包优惠券玩法，快速下单买买买</span>
+                                <span class="list-content">支持抽奖红包、优惠券、直播间打赏等玩法，直播间内就能下单购买，大幅提升用户购买欲望，让直播间成交率飙升。</span>
+                            </div>
+                            <div class="go-btn">
+                                <a class="card-btn" target="_blank" href="https://admin.xiaoe-tech.com/login_page?channel=5670-116942#/register" data-scid="SA55" rel="nofollow">免费试用</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-list">
+                    <p class="center-title">内容产品</p>
+                    <div class="center-content">
+                        <div class="content-left">
+                            <img src="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgax05c09z3.jpg" class="content-left-img1 content-left-img">
+                        </div>
+                        <div class="content-right">
+                            <div class="content-right-list
+                                    content-list-active" data-img="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgax05c09z3.jpg" data-key="1">
+                                <div class="list-tag">内容产品</div>
+                                <span class="list-title">图文/音视频多种形式，把内容变成付费产品</span>
+                                <span class="list-content">支持图文、音频、视频、电子书、AI互动课等内容形式，上架你的知识店铺，能够付费购买与使用，实现内容产品化。</span>
+                            </div>
+                            <div class="content-right-list" data-img="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgawvgx0i11.jpg" data-key="1" data-show="1">
+                                <div class="list-tag">沉淀体系</div>
+                                <span class="list-title">专栏/训练营打包内容，建立结构化内容体系</span>
+                                <span class="list-content">可以把多个内容打包成专栏、大专栏、训练营、会员课程等形式，建立体系化的内容产品，满足系统学习需求。</span>
+                            </div>
+                            <div class="content-right-list" data-img="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgawvgy0sy1.jpg" data-key="1" data-show="2">
+                                <div class="list-tag">互动学习</div>
+                                <span class="list-title">打卡/学练考一体化，满足强互动式学习体验</span>
+                                <span class="list-content">支持题库、考试、打卡、证书、作业本等强互动式教学工具，与内容产品相结合，扎实抓住真实学习效果。</span>
+                            </div>
+                            <div class="go-btn">
+                                <a class="card-btn" target="_blank" href="https://admin.xiaoe-tech.com/login_page?channel=5670-116942#/register" data-scid="SA56" rel="nofollow">免费试用</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-list">
+                    <p class="center-title">营销玩法</p>
+                    <div class="center-content">
+                        <div class="content-left">
+                            <img src="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgax0p403c2.jpg" class="content-left-img2 content-left-img">
+                        </div>
+                        <div class="content-right">
+                            <div class="content-right-list
+                                    content-list-active" data-img="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgax0p403c2.jpg" data-key="2">
+                                <div class="list-tag">引流获客</div>
+                                <span class="list-title">多种裂变+分销玩法，源源不断获取用户</span>
+                                <span class="list-content">支持裂变海报、涨粉神器等裂变工具，以及推广员等分销玩法，通过用户社交关系就能快速引流获客。</span>
+                            </div>
+                            <div class="content-right-list" data-img="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgax0i60tib.jpg" data-key="2" data-show="1">
+                                <div class="list-tag">促销转化</div>
+                                <span class="list-title">秒杀拼团折扣，营造紧张刺激的促销氛围</span>
+                                <span class="list-content">多种秒杀、拼团、限时折扣、优惠券等等大量促销工具，紧张刺激的氛围充满你的知识店铺，让用户疯狂买买买。</span>
+                            </div>
+                            <div class="content-right-list" data-img="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgax0lg0snj.jpg" data-key="2" data-show="2">
+                                <div class="list-tag">口碑复购</div>
+                                <span class="list-title">分享试用体验，用户主动增购复购产品</span>
+                                <span class="list-content">支付有礼、请好友看、免费试听/试看等功能，创造更多分享试用体验的机会，让用户主动购买你的更多产品。</span>
+                            </div>
+                            <div class="go-btn">
+                                <a class="card-btn" target="_blank" href="https://admin.xiaoe-tech.com/login_page?channel=5670-116942#/register" data-scid="SA57" rel="nofollow">免费试用</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-list">
+                    <p class="center-title">变现能力</p>
+                    <div class="center-content">
+                        <div class="content-left">
+                            <img src="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgawvgx0px5.jpg" class="content-left-img3 content-left-img">
+                        </div>
+                        <div class="content-right">
+                            <div class="content-right-list
+                                    content-list-active" data-img="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgawvgx0px5.jpg" data-key="3">
+                                <div class="list-tag">商品交易</div>
+                                <span class="list-title">实物商品+虚拟商品，把生意做的更加广阔</span>
+                                <span class="list-content">支持实物商品、虚拟商品售卖，还能组合售卖，实现课程带货等场景，提高客单价和营收，拓宽更多变现可能性。</span>
+                            </div>
+                            <div class="content-right-list" data-img="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgawvgt0eyv.jpg" data-key="3" data-show="1">
+                                <div class="list-tag">订单管理</div>
+                                <span class="list-title">订单筛选导出+发货追踪，掌握每个环节状态</span>
+                                <span class="list-content">可按多个维度导出下单、交易等记录，及时掌握每个订单的最新状态，还能追踪实物商品的物流状态。</span>
+                            </div>
+                            <div class="content-right-list" data-img="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgawvgw0ljl.jpg" data-key="3" data-show="2">
+                                <div class="list-tag">交易分析</div>
+                                <span class="list-title">查看交易漏斗与订单构成，快速制定售卖策略</span>
+                                <span class="list-content">具备交易漏斗、订单构成、商品分析等分析工具，自动化生成店铺交易环节的关键数据，助你快速制定最佳售卖策略。</span>
+                            </div>
+                            <div class="go-btn">
+                                <a class="card-btn" target="_blank" href="https://admin.xiaoe-tech.com/login_page?channel=5670-116942#/register" data-scid="SA58" rel="nofollow">免费试用</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-list">
+                    <p class="center-title">用户管理</p>
+                    <div class="center-content">
+                        <div class="content-left">
+                            <img src="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgax29p05p9.jpg" class="content-left-img4 content-left-img">
+                        </div>
+                        <div class="content-right">
+                            <div class="content-right-list
+                                    content-list-active" data-img="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgax29p05p9.jpg" data-key="4">
+                                <div class="list-tag">企微助手</div>
+                                <span class="list-title">企业活码+智能回复，保障你的用户资产</span>
+                                <span class="list-content">支持企微活码、群画像，用户标签等企微助手能力，同时管理员工和用户，统一沉淀到你自己的用户资源池。</span>
+                            </div>
+                            <div class="content-right-list" data-img="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgax1dv0iea.jpg" data-key="4" data-show="1">
+                                <div class="list-tag">标签分层</div>
+                                <span class="list-title">每个用户都能打标签，分层针对性运营</span>
+                                <span class="list-content">支持后台给每位客户打标签做分组，对不同的客户特征、行为、需求等做针对性的运营动作，大幅提升运营效率。</span>
+                            </div>
+                            <div class="content-right-list" data-img="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgax1lx0vwz.jpg" data-key="4" data-show="2">
+                                <div class="list-tag">会员体系</div>
+                                <span class="list-title">超级会员+积分商城，构建高粘性用户关系</span>
+                                <span class="list-content">支持超级会员、积分商城、活动管理等能力，运用独有的会员身份和积分体系，筛出高粘性的用户。</span>
+                            </div>
+                            <div class="go-btn">
+                                <a class="card-btn" target="_blank" href="https://admin.xiaoe-tech.com/login_page?channel=5670-116942#/register" data-scid="SA59" rel="nofollow">免费试用</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="module-box module-box-4">
+        <div class="panorama-education-div">
+            <div class="panorama-education w1200">
+                <div class="title1">全渠道经营场景</div>
+                <p class="title2">
+                    覆盖全渠道经营场景，占据每个流量入口，流量变现快速高效
+                </p>
+                <ul class="panorama-education-list">
+                    <li class="mobile-education mobile-education-2">
+                        <div class="small-education-div">
+                            <div class="mobile-small-img">
+                                <i class="iconfont T3 EC2 iconicon_h"></i>
+                            </div>
+                            <p class="mobile-education-title">微信H5店铺</p>
+                            <p class="mobile-education-sub">轻量级移动经营体验</p>
+                            <p class="mobile-education-sub">即开即用易传播</p>
+                            <div class="mobile-education-img">
+                                <img src="/ezan/SEM/images/onlineEducation/img_H5.png" />
+                            </div>
+                        </div>
+                        <div class="big-mobile-education">
+                            <div class="pc-education-top">
+                                <div class="pc-small-img">
+                                    <i class="iconfont iconicon_h"></i>
+                                </div>
+                                <p class="education-title">微信H5店铺</p>
+                            </div>
+                            <div class="education-title-box">
+                                <p>轻量级移动经营体验</p>
+                                <p>即开即用易传播</p>
+                            </div>
+                            <div class="education-img">
+                                <img src="/ezan/SEM/images/onlineEducation/img_H5.png" />
+                            </div>
+                            <a class="card-btn" target="_blank" data-scid="SA14" href="https://admin.xiaoe-tech.com/login_page?channel=5670-116942#/register" rel="nofollow">免费试用</a>
+                        </div>
+                    </li>
+                    <li class="mobile-education mobile-education-3">
+                        <div class="small-education-div">
+                            <div class="mobile-small-img">
+                                <i class="iconfont T3 EC2
+                                        iconicon_minprogram"></i>
+                            </div>
+                            <p class="mobile-education-title">微信小程序</p>
+                            <p class="mobile-education-sub">一键生成，无需开发</p>
+                            <p class="mobile-education-sub">快速拥有自己的小程序店铺</p>
+                            <div class="mobile-education-img">
+                                <img src="/ezan/SEM/images/onlineEducation/img_minprogram.png" />
+                            </div>
+                        </div>
+                        <div class="big-mobile-education">
+                            <div class="pc-education-top">
+                                <div class="pc-small-img">
+                                    <i class="iconfont iconicon_minprogram"></i>
+                                </div>
+                                <p class="education-title">微信小程序</p>
+                            </div>
+                            <div class="education-title-box">
+                                <p>一键生成，无需开发</p>
+                                <p>快速拥有自己的小程序店铺</p>
+                            </div>
+                            <div class="education-img">
+                                <img src="/ezan/SEM/images/onlineEducation/img_minprogram.png" />
+                            </div>
+                            <a class="card-btn" target="_blank" data-scid="SA15" href="https://admin.xiaoe-tech.com/login_page?channel=5670-116942#/register" rel="nofollow">免费试用</a>
+                        </div>
+                    </li>
+                    <li class="mobile-education mobile-education-1">
+                        <div class="small-education-div">
+                            <div class="mobile-small-img">
+                                <i class="iconfont T3 EC2 iconicon_pc1"></i>
+                            </div>
+                            <p class="mobile-education-title">PC独立官网</p>
+                            <p class="mobile-education-sub">具备产品交付和商业变现能力</p>
+                            <p class="mobile-education-sub">建立专属品牌官网</p>
+                            <div class="mobile-education-img">
+                                <img src="/ezan/SEM/images/onlineEducation/img_PC.png" />
+                            </div>
+                        </div>
+                        <div class="big-mobile-education">
+                            <div class="pc-education-top">
+                                <div class="pc-small-img">
+                                    <i class="iconfont iconicon_pc1"></i>
+                                </div>
+                                <p class="education-title">PC独立官网</p>
+                            </div>
+                            <div class="education-title-box">
+                                <p>具备产品交付和商业变现能力</p>
+                                <p>建立专属品牌官网</p>
+                            </div>
+                            <div class="education-img">
+                                <img src="/ezan/SEM/images/onlineEducation/img_PC.png" />
+                            </div>
+                            <a class="card-btn" target="_blank" data-scid="SA16" href="https://admin.xiaoe-tech.com/login_page?channel=5670-116942#/register" rel="nofollow">免费试用</a>
+                        </div>
+                    </li>
+                    <li class="mobile-education mobile-education-4">
+                        <div class="small-education-div">
+                            <div class="mobile-small-img">
+                                <i class="iconfont T3 EC2 iconicon_App"></i>
+                            </div>
+                            <p class="mobile-education-title">小鹅通助手APP</p>
+                            <p class="mobile-education-sub">学员/讲师/商家都能用</p>
+                            <p class="mobile-education-sub">无需开发也能在APP上经营变现</p>
+                            <div class="mobile-education-img">
+                                <img src="/ezan/SEM/images/onlineEducation/img_assistantApp.png" />
+                            </div>
+                        </div>
+                        <div class="big-mobile-education">
+                            <div class="pc-education-top">
+                                <div class="pc-small-img">
+                                    <i class="iconfont iconicon_App"></i>
+                                </div>
+                                <p class="education-title">小鹅通助手APP</p>
+                            </div>
+                            <div class="education-title-box">
+                                <p>学员/讲师/商家都能用</p>
+                                <p>无需开发也能在APP上经营变现</p>
+                            </div>
+                            <div class="education-img">
+                                <img src="/ezan/SEM/images/onlineEducation/img_assistantApp.png" />
+                            </div>
+                            <a class="card-btn" target="_blank" data-scid="SA17" href="https://admin.xiaoe-tech.com/login_page?channel=5670-116942#/register" rel="nofollow">免费试用</a>
+                        </div>
+                    </li>
+                    <li class="mobile-education mobile-education-5">
+                        <div class="small-education-div">
+                            <div class="mobile-small-img">
+                                <i class="iconfont T3 EC2 iconicon_Api"></i>
+                            </div>
+                            <p class="mobile-education-title">API/SDK开发</p>
+                            <p class="mobile-education-sub">联接多个渠道，打通自有APP</p>
+                            <p class="mobile-education-sub">实现个性化自主开发</p>
+                            <div class="mobile-education-img">
+                                <img src="/ezan/SEM/images/onlineEducation/img_API.png" />
+                            </div>
+                        </div>
+                        <div class="big-mobile-education">
+                            <div class="pc-education-top">
+                                <div class="pc-small-img">
+                                    <i class="iconfont iconicon_Api"></i>
+                                </div>
+                                <p class="education-title">API/SDK开发</p>
+                            </div>
+                            <div class="education-title-box">
+                                <p>联接多个渠道，打通自有APP</p>
+                                <p>实现个性化自主开发</p>
+                            </div>
+                            <div class="education-img">
+                                <img src="/ezan/SEM/images/onlineEducation/img_API.png" />
+                            </div>
+                            <a class="card-btn" target="_blank" data-scid="SA18" href="https://admin.xiaoe-tech.com/login_page?channel=5670-116942#/register" rel="nofollow">免费试用</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="module-box">
+        <div class="module-box-5 w1200">
+            <p class="title1">以客户为中心的陪伴式服务</p>
+            <p class="title2">围绕客户购买后的全生命周期运营，提供1V1的陪伴服务</p>
+            <div class="customer-box">
+                <img src="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvgb7zjj0j5v.jpg" class="customer-img">
+            </div>
+        </div>
+    </div>
+
+    <div class="module-box module-box-bgc">
+        <div class="module-box-6 w1200">
+            <p class="title1">三项“超能力”，给你稳定的技术保障</p>
+            <div class="ability-box">
+                <div class="ability-item">
+                    <img src="/ezan/SEM/images/homePage/ability-item1.png" alt="">
+                    <div class="title">超快速</div>
+                    <p>音画实时同步，延迟不超过0.5秒。</p>
+                    <p>模拟现场感，隔空对话不尴尬。</p>
+                    <div class="bottom">
+                        <p class="decs">服务平均响应</p>
+                        <span>
+                            <100 </span><span class="decs">ms</span>
+                    </div>
+                </div>
+                <div class="ability-item">
+                    <img src="/ezan/SEM/images/homePage/ability-item2.png" alt="">
+                    <div class="title">超稳定</div>
+                    <p>支持千万级并发用户数。</p>
+                    <p>保障网络信息和用户数据库安全。</p>
+                    <div class="bottom">
+                        <p class="decs">网络攻防切换</p>
+                        <span>
+                            <60 </span><span class="decs">s</span>
+                    </div>
+                </div>
+                <div class="ability-item">
+                    <img src="/ezan/SEM/images/homePage/ability-item3.png" alt="">
+                    <div class="title">超流畅</div>
+                    <p>高清直播依然流畅，拒绝卡顿。</p>
+                    <p>观看回放时，可自由调节播放清晰度。</p>
+                    <div class="bottom">
+                        <p class="decs">回放支持</p>
+                        <span>1080p</span><span class="decs"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="module-box company-swipper-box">
+        <div class="company-swipper-wrap swiper-margin">
+            <p class="title1">他们都在用小鹅通</p>
+            <div class="swiper-container company-swipper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide item">
+                        <img class="icon-img" src="/ezan/SEM/images/homePage/icon_quotes_right.png" alt="">
+                        <div class="company-img-box">
+                            <img class="company-img" src="/ezan/SEM/images/homePage/homeIcon/company1.png" alt="" data-no-retina>
+                        </div>
+                        <p class="name">吴晓波频道</p>
+                        <p class="text">
+                            知识服务逐渐变成了有定价、有边界、服务非常清晰的产品。&ldquo;每天听见吴晓波&rdquo;在过去短短几个月内发展到十几万付费用户，和小鹅通的使用有很大关系，它帮助我们在内容发布的过程中，完成用户的管理系统。
+                        </p>
+                    </div>
+                    <div class="swiper-slide item">
+                        <img class="icon-img" src="/ezan/SEM/images/homePage/icon_quotes_right.png" alt="">
+                        <div class="company-img-box">
+                            <img class="company-img" src="/ezan/SEM/images/homePage/homeIcon/company2.png" alt="" data-no-retina>
+                        </div>
+                        <p class="name">十点读书</p>
+                        <p class="text">小鹅通，自媒体人坚实的桥梁，连接好内容，连接好知识。</p>
+                    </div>
+                    <div class="swiper-slide item">
+                        <img class="icon-img" src="/ezan/SEM/images/homePage/icon_quotes_right.png" alt="">
+                        <div class="company-img-box">
+                            <img class="company-img" src="/ezan/SEM/images/homePage/homeIcon/company4.png" alt="" data-no-retina>
+                        </div>
+                        <p class="name">广发基金财富学院</p>
+                        <p class="text">小鹅通帮助基金公司打破了与投资者之间的时间、空间限制，让我们的投研观点与投教内容能更高效地触达更多客户。</p>
+                    </div>
+                    <div class="swiper-slide item">
+                        <img class="icon-img" src="/ezan/SEM/images/homePage/icon_quotes_right.png" alt="">
+                        <div class="company-img-box">
+                            <img class="company-img" src="/ezan/SEM/images/homePage/homeIcon/company5.png" alt="" data-no-retina>
+                        </div>
+                        <p class="name">马蜂窝大学</p>
+                        <p class="text">小鹅通帮助我们补全了移动端缺失这一块短板，通过分销市场将课程分发给合作伙伴，实现了多方共赢。</p>
+                    </div>
+                    <div class="swiper-slide item">
+                        <img class="icon-img" src="/ezan/SEM/images/homePage/icon_quotes_right.png" alt="">
+                        <div class="company-img-box">
+                            <img class="company-img" src="/ezan/SEM/images/homePage/homeIcon/company6.png" alt="" data-no-retina>
+                        </div>
+                        <p class="name">清华五道口云课堂</p>
+                        <p class="text">小鹅通的直播等功能，成功让我们将传统优势线下教育向线上延伸，获得了潜在的合作机会和后续业务发展的启发。</p>
+                    </div>
+                    <div class="swiper-slide item">
+                        <img class="icon-img" src="/ezan/SEM/images/homePage/icon_quotes_right.png" alt="">
+                        <div class="company-img-box">
+                            <img class="company-img" src="/ezan/SEM/images/homePage/homeIcon/company7.png" alt="" data-no-retina>
+                        </div>
+                        <p class="name">21世纪经济报道</p>
+                        <p class="text">小鹅通解决我们与内容的联动，通过小鹅通内容市场能一键获取好课，大大节省了我们的时间成本。</p>
+                    </div>
+                    <div class="swiper-slide item">
+                        <img class="icon-img" src="/ezan/SEM/images/homePage/icon_quotes_right.png" alt="">
+                        <div class="company-img-box">
+                            <img class="company-img" src="/ezan/SEM/images/homePage/homeIcon/company12.png" alt="" data-no-retina>
+                        </div>
+                        <p class="name">清华大学出版社</p>
+                        <p class="text">小鹅通的技术和服务，让出版机构的知识变现更快速、更直接、更到位</p>
+                    </div>
+                    <div class="swiper-slide item">
+                        <img class="icon-img" src="/ezan/SEM/images/homePage/icon_quotes_right.png" alt="">
+                        <div class="company-img-box">
+                            <img class="company-img" src="/ezan/SEM/images/homePage/homeIcon/company9.png" alt="" data-no-retina>
+                        </div>
+                        <p class="name">豆瓣时间</p>
+                        <p class="text">小鹅通帮助我们将流量进行了高转化，让我们优质的课程传播更远。</p>
+                    </div>
+                    <div class="swiper-slide item">
+                        <img class="icon-img" src="/ezan/SEM/images/homePage/icon_quotes_right.png" alt="">
+                        <div class="company-img-box">
+                            <img class="company-img" src="/ezan/SEM/images/homePage/homeIcon/company11.png" alt="" data-no-retina>
+                        </div>
+                        <p class="name">八马茶业</p>
+                        <p class="text">小鹅通企业培训的线上考试以及自动批卷功能，极大的提高了培训效率，后续也将借助企学院搭建更完善的培训体系。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="home-swiper-page company-swipper-page"></div>
+        </div>
+    </div>
+
+    <div class="free2 fix-banner hide-banner" id="show-bottom">
+        <div class="banner-blue w1200">
+            <div class="btn-box">
+                <a rel="nofollow" target="_blank" class="go-login-btn" href="https://admin.xiaoe-tech.com/login_page?channel=5670-116942#/register" data-scid="SA12"></a>
+                <img src="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appPYtT9SmK6848/image/b_u_5b2225aa46488_oGKN7IvA/kvq7x9jd0uan.png" alt="" class="colose-bottom" id="close-bottom">
+            </div>
+        </div>
+    </div>
+
+    <div class="bg161E30">
+        <div class="footer">
+            <div class="copyright">
+                <p class="copyright-info">Copyright © 2018-2022 广州鹅赞科技有限公司 All Rights Reserved.<a target="_blank" href="https://beian.miit.gov.cn/" class="link" rel="nofollow">粤ICP备2022073686号</a> </p>
+                <div class="brand">
+                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502002037" rel="nofollow">
+                        <img class="webInfo-ga-icon" src="/ezan/SEM/images/common/beian.png" data-no-retina /> 粤公网安备 44010602009695号
+                    </a>
+                    <a target="_blank" href="https://szcert.ebs.org.cn/56b1d5d4-ecc1-4dc9-9478-063925f9c322" rel="nofollow">
+                        <img class="webInfo-ga-icon" src="/ezan/SEM/images/common/ebsIcon.png" data-no-retina /> 工商网监 电子标识
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="customer-business">
+        <div class="customer-qrcode">
+            <img src="/ezan/SEM/wechatapppro-1252524126.file.myqcloud.com/appAKLWLitn7978/image/b_u_5b2225aa46488_oGKN7IvA/l0qvpz6x0l75.png" data-no-retina alt="" />
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/ezan/SEM/dist/js/lib/jquery-1-78350fe5a3.11.3.js"></script>
+    <script type="text/javascript" src="/ezan/SEM/dist/js/lib/jquery-18b586da8c.cookie.js"></script>
+    <script type="text/javascript" src="/ezan/SEM/dist/js/lib/retina-f02efe09b9.min.js"></script>
+    <script type="text/javascript" src="/ezan/SEM/dist/js/common/page_view_sensors-a4c2e72496.js"></script>
+    <script type="text/javascript" src="/ezan/SEM/dist/js/common/click_butt_sensors-04e16c158a.js"></script>
+    <script type="text/javascript" src="/ezan/SEM/dist/js/common/global_func-e469216426.js"></script>
+    <script type="text/javascript" src="/ezan/SEM/dist/js/pc/base-d3d2cb7e61.js"></script>
+    <script type="text/javascript" src="/ezan/SEM/dist/js/pc/homePage-4d1870d305.js"></script>
+</body>
+
+</html>
