@@ -70,7 +70,7 @@ $(function() {
     initTab: function() { $(".module-box-2 .item").hover(function() { $(".module-box-2 .item").removeClass("active"), $(this).addClass("active") }) },
     handleVideo: function() {
         $(".video-btn").click(function(i) {
-            var t = '<div class="video-frame" id="video-frame"><div class="mask"></div><div class="video-view-container"><div class="close-icon" style="background-image: url(https://ezan-1312726142.cos.accelerate.myqcloud.com/pc/static/wechatapppro-1252524126.file.myqcloud.com/appAKLWLitn7978/image/kj6n90f30269kqlom2j2.png)"></div><video src=' + $(".video-btn").attr("data-video") + ' autoplay="autoplay" class="video" width="880" height="495" controls="controls" id="four-video"></video></div></div>';
+            var t = '<div class="video-frame" id="video-frame"><div class="mask"></div><div class="video-view-container"><div class="close-icon" style="background-image: url(https://ezan-1312726142.cos.ap-shanghai.myqcloud.com/pc/static/wechatapppro-1252524126.file.myqcloud.com/appAKLWLitn7978/image/kj6n90f30269kqlom2j2.png)"></div><video src=' + $(".video-btn").attr("data-video") + ' autoplay="autoplay" class="video" width="880" height="495" controls="controls" id="four-video"></video></div></div>';
             i.stopPropagation(), $(document.body).append(t), document.getElementById("four-video").play()
         }), $(document).click(function(i) {
             (!$(".video-view-container").is(i.target) && 0 === $(".video-view-container").has(i.target).length || $(".video-view-container .close-icon").is(i.target)) && $("#video-frame").remove()
